@@ -1,0 +1,38 @@
+body {
+  padding: 0;
+  min-width: 320px;
+  max-width: 1040px;
+  font-family: "Rosarivo", Serif;
+  font-size: 1.3em;
+}
+h1 {
+  text-align: center;
+}
+section {
+  margin: 2% 5%;
+}
+aside {
+  margin: 10%;
+}
+button {
+  font-size: .8em;
+  background-color: #E0E0E0;
+  font-weight: bold;
+  display: inline-block;
+  padding: 0 5px;
+  border-radius: 10px;
+  border-color: solid 2px #000066;
+}
+li {
+  padding-left: 2%;
+  font-size: 1em;
+}
+input {
+  font-size: .8em;
+}
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+}
