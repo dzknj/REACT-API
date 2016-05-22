@@ -26,14 +26,16 @@ server side directory, this is done by doing the following;
 - Open your favorite browser
 - navigate to **_localhost:1234_**
 - Enter a City name, and crime level, such as high, or low.
+
 ###Editing a city
 - click the edit button next to the city you wish to edit
 - enter new information for city Name and/or crime Level
 - click save city
 - _CONGRATULATIONS!!!_ you have just updated the databse!
+
 ###Deleting a City
--click the Delete button
--Good job. You did great!
+- click the Delete button
+- Good job. You did great!
 
 ###Other Information
 In case you choose to edit any of the files in this app, keep in mind that both
