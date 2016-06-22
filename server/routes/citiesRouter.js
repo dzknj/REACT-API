@@ -17,6 +17,7 @@ citiesRouter.get('/cities', (req, res) => {
 citiesRouter.post('/cities', bodyParser, (req, res) => {
   console.log('/cities POST route works!');
   var newCity = new City(req.body);
+
   newCity.save((err, data) => {
     if (err) return serverErrHandler(err, res);
     res.status(200).json(data);
@@ -25,6 +26,7 @@ citiesRouter.post('/cities', bodyParser, (req, res) => {
 
 citiesRouter.put('/cities/:id', bodyParser, (req, res) => {
   var cityData = req.body;
+
   delete cityData._id;
   City.update({ _id: req.params.id }, cityData, (err) => {
     if (err) return serverErrHandler(err, res);
